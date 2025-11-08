@@ -1,0 +1,10 @@
+# Python version
+*.python-version
+
+*__pycache__
+*/__pycache__
+*/pytest_cache
+
+# Virtual env
+venv
+.venv
