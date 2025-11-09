@@ -24,4 +24,5 @@ jobs:
     # Test
     - name: Test with pytest
       run: |
+        source .venv/bin/activate
         uv pytest
