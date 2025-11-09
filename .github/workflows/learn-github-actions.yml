@@ -22,4 +22,4 @@ jobs:
     # Test
     - name: Test with pytest
       run: |
-        pytest
+        uv pytest
